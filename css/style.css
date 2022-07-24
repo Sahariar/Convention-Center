@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@700&display=swap');/* font-family: 'Inter', sans-serif; */
+/* 
+font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+*/
+/* globar Css */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.hero-carousal,.moment-section, .packages-section,.mb-100 ,.testimonail-section,.faq-section{
+    margin-bottom: 100px;
+}
+.title{
+    font-style: normal;
+font-weight: 700;
+font-size: 38px;
+line-height: 60px;
+color: #0A0826;
+}
+/* nvabar */
+.navbar-aba{
+    height: 96px;
+}
+  .navbar-brand{
+    font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 33px;
+color: #3E3E3E;
+  }
+  .nav-link{
+    font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #3E3E3E;
+  }
+
+  /* Hero Caurosel */
+  .carousel-caption{
+    width: 650px;
+  }
+  .carousel-caption h5{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .carousel-caption p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .btn-hero{
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+color: #3F87F5;
+  }
+ /* Moment section */
+
+.moment-des p{
+    font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 28px;
+color: #6C6C6C;
+}
+.btn-moment{
+    background: #3F87F5;
+}
+.btn-moment:hover{
+    color: #3F87F5 !important;
+}
+/* packages area */
+.card-header{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 33px;
+background: transparent;
+border: 0;
+color: #231D4F;
+}
+
+.card-body ul li{
+    font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+color: #848199;
+}
+.card-body p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #848199;
+}
+.btn-package{
+background: rgba(244, 150, 209, 0.1);
+mix-blend-mode: normal;
+border-radius: 24px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+text-align: center;
+color: #3F87F5;
+}
+.btn-package:hover{
+    color: #3F87F5;
+    }
+.list-unstyled li img {
+    padding-right: 10px;
+    
+}
+.card-premium {
+    background-color: #3F87F5;
+    background-image: url(/icons/premium.svg) !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-position-x: 100% !important;
+    box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+    transform: scale(1.1);
+}
+.card-premium .card-body p,.card-premium .card-body ul li,.card-premium .card-header{
+    color: #fff;
+}
+.card-premium .btn-package{
+    background: #FFFFFF;
+}
+.spc-text{
+    background: #FF4E4E;
+}
+/* Faq section */
+.accordion-header button {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #383838 !important;
+    border: 2px solid #eee;
+    border-bottom: 0;
+}
+
+.accordion-body{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #7E848C;
+    border: 2px solid #eee;
+    border-top: 0;
+}
