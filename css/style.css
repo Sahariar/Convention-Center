@@ -167,3 +167,16 @@ color: #7E848C;
     border: 2px solid #eee;
     border-top: 0;
 }
+/* Footer */
+footer{
+height: 280px;
+background: #0B0D17;
+}
+.copywrite-text{
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+font-feature-settings: 'liga' off;
+color: #D9DBE1;
+}
